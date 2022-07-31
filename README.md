@@ -31,7 +31,7 @@ Para correr el trabajo se deben seguir las siguientes instrucciones:
 3. Verificar que tenga instalado Docker en su sistema: docker -version
 4. Ejecute el comando para armar el docker y etiquetarlo: docker build . -t entornos_tp:1.0
 5. Chequear que la imagen se halla creado correctamente: docker images
-6. Ejecute el comando para correr el docker: docker run entornos_tp:1.0
+6. Ejecute el comando para correr el docker: docker run -it entornos_tp:1.0
 
 Esto abre el docker y ejecuta automáticamente el menú desde el cual prodrá acceder a los scripts
 
