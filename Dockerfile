@@ -6,4 +6,4 @@ COPY texto.txt entornos/
 WORKDIR /entornos
 RUN chmod +x *.sh
 
-ENTRYPOINT [ "sh", "menuPrincipal.sh texto.txt" ]
+CMD [ "./menuPrincipal.sh", "texto.txt" ]

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 PS3='Opcion> '
 echo "Qué script desea ejecutar?"
 select OPCION in "statsWords.sh" "statsUsageWords.sh" "findNames.sh" "statsSentences.sh" "blankLinesCounter.sh" "Exit"
