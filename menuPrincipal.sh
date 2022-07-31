@@ -5,6 +5,6 @@ select OPCION in "statsWords.sh" "statsUsageWords.sh" "findNames.sh" "statsSente
 do
 [ -e $REPLY ] && echo "Elegir opcion valida!" && continue
 [ $REPLY == 6 ] && echo "Cerrando Menú" && break
-echo "Script elegido: " $OPCION && ./$OPCION $1
+echo "Script elegido: " $OPCION && . $OPCION $1
 done
 exit 0
